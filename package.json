@@ -1,0 +1,22 @@
+{
+  "main": "dist/agm-awesome-utils-tutorial.cjs.js",
+  "module": "dist/agm-awesome-utils-tutorial.esm.js",
+  "browser": "dist/agm-awesome-utils-tutorial.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "rollup": "^2.56.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
