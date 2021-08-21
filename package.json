@@ -1,10 +1,11 @@
 {
-  "main": "dist/agm-awesome-utils-tutorial.cjs.js",
-  "module": "dist/agm-awesome-utils-tutorial.esm.js",
-  "browser": "dist/agm-awesome-utils-tutorial.umd.js",
+  "name": "@saigak/utils",
+  "version": "1.0.0",
+  "main": "dist/utils.cjs.js",
+  "module": "dist/utils.esm.js",
+  "browser": "dist/utils.umd.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "node test/spec",
     "pretest": "npm run build"
   },
   "devDependencies": {
